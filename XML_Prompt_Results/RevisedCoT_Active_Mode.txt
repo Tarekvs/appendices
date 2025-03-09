@@ -1,0 +1,496 @@
+Prompt:
+Identify the selector to detect which mode is active, in the provided XML dump: 
+"""
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy rotation="0">
+  <node index="0" text="" resource-id="com.bmwgroup.idnext.toolbelt:id/tool_belt_root" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.toolbelt" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,65]" drawing-order="0" hint="" display-id="0">
+    <node index="1" text="" resource-id="com.bmwgroup.idnext.toolbelt:id/fake_status_bar" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.toolbelt" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,65]" drawing-order="2" hint="" display-id="0">
+      <node index="0" text="" resource-id="com.bmwgroup.idnext.toolbelt:id/top_touchable_area_in_bar" class="android.view.View" package="com.bmwgroup.idnext.toolbelt" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,20]" drawing-order="1" hint="" display-id="0" />
+      <node index="1" text="" resource-id="com.bmwgroup.idnext.toolbelt:id/lower_touchable_area_in_bar" class="android.view.View" package="com.bmwgroup.idnext.toolbelt" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[810,20][1110,65]" drawing-order="2" hint="" display-id="0" />
+      <node index="2" text="" resource-id="com.bmwgroup.idnext.toolbelt:id/handle_bar_indicator" class="android.view.View" package="com.bmwgroup.idnext.toolbelt" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[852,12][1068,28]" drawing-order="3" hint="" display-id="0" />
+    </node>
+  </node>
+  <node index="0" text="" resource-id="com.android.systemui:id/navigation_bar_frame" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,840][1920,960]" drawing-order="0" hint="" display-id="0">
+    <node index="0" text="" resource-id="com.bmwgroup.idnext.overlay:id/navigationBarOverlay" class="android.view.ViewGroup" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,840][1920,960]" drawing-order="1" hint="" display-id="0">
+      <node index="0" text="" resource-id="" class="android.view.ViewGroup" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,840][1920,960]" drawing-order="4" hint="" display-id="0">
+        <node index="0" text="" resource-id="com.bmwgroup.idnext.overlay:id/container" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[110,840][1810,960]" drawing-order="2" hint="" display-id="0">
+          <node index="0" text="" resource-id="" class="android.view.ViewGroup" package="com.android.systemui" content-desc="climate_control_left" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[110,840][674,960]" drawing-order="1" hint="" display-id="0">
+            <node index="0" text="" resource-id="com.bmwgroup.idnext.overlay:id/climateBar" class="android.view.ViewGroup" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[110,919][674,960]" drawing-order="1" hint="" display-id="0">
+              <node index="0" text="" resource-id="" class="android.view.ViewGroup" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[110,919][674,960]" drawing-order="1" hint="" display-id="0">
+                <node index="0" text="" resource-id="com.bmwgroup.idnext.overlay:id/bar" class="android.view.View" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[131,937][653,943]" drawing-order="1" hint="" display-id="0" />
+              </node>
+            </node>
+            <node index="1" text="" resource-id="com.bmwgroup.idnext.overlay:id/minusLayout" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="minusLayout" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[131,844][290,939]" drawing-order="4" hint="" display-id="0" />
+            <node index="2" text="" resource-id="com.bmwgroup.idnext.overlay:id/minusIcon" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[164,887][187,910]" drawing-order="7" hint="" display-id="0" />
+            <node index="3" text="" resource-id="com.bmwgroup.idnext.overlay:id/temperatureLayout" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="temperatureLayout" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[290,844][495,934]" drawing-order="3" hint="" display-id="0">
+              <node index="0" text="22" resource-id="com.bmwgroup.idnext.overlay:id/textViewNumDegrees" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[323,852][387,930]" drawing-order="1" hint="" display-id="0" />
+              <node index="1" text="°" resource-id="com.bmwgroup.idnext.overlay:id/temperatureUnit" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[390,862][405,908]" drawing-order="2" hint="" display-id="0" />
+              <node index="2" text="" resource-id="com.bmwgroup.idnext.overlay:id/drawerButton" class="android.widget.ImageView" package="com.android.systemui" content-desc="seat_heating_indicator" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[413,859][462,930]" drawing-order="3" hint="" display-id="0" />
+            </node>
+            <node index="4" text="AUTO OFF" resource-id="com.bmwgroup.idnext.overlay:id/modeText" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[314,921][470,958]" drawing-order="2" hint="" display-id="0" />
+            <node index="5" text="" resource-id="com.bmwgroup.idnext.overlay:id/plusLayout" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="plusLayout" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[495,844][653,939]" drawing-order="5" hint="" display-id="0" />
+            <node index="6" text="" resource-id="com.bmwgroup.idnext.overlay:id/plusIcon" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[597,887][620,910]" drawing-order="6" hint="" display-id="0" />
+          </node>
+          <node index="1" text="" resource-id="com.bmwgroup.idnext.overlay:id/det_bar" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[764,840][1156,960]" drawing-order="3" hint="" display-id="0">
+            <node NAF="true" index="0" text="" resource-id="com.bmwgroup.idnext.overlay:id/climateIcon" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[764,840][884,960]" drawing-order="1" hint="" display-id="0" />
+            <node NAF="true" index="1" text="" resource-id="com.bmwgroup.idnext.overlay:id/homeIcon" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[900,840][1020,960]" drawing-order="2" hint="" display-id="0" />
+            <node NAF="true" index="2" text="" resource-id="com.bmwgroup.idnext.overlay:id/menuIcon" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1036,840][1156,960]" drawing-order="3" hint="" display-id="0" />
+          </node>
+          <node index="2" text="" resource-id="" class="android.view.ViewGroup" package="com.android.systemui" content-desc="climate_control_right" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1246,840][1810,960]" drawing-order="2" hint="" display-id="0">
+            <node index="0" text="" resource-id="com.bmwgroup.idnext.overlay:id/climateBar" class="android.view.ViewGroup" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1246,919][1810,960]" drawing-order="1" hint="" display-id="0">
+              <node index="0" text="" resource-id="" class="android.view.ViewGroup" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1246,919][1810,960]" drawing-order="1" hint="" display-id="0">
+                <node index="0" text="" resource-id="com.bmwgroup.idnext.overlay:id/bar" class="android.view.View" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1267,937][1789,943]" drawing-order="1" hint="" display-id="0" />
+              </node>
+            </node>
+            <node index="1" text="" resource-id="com.bmwgroup.idnext.overlay:id/minusLayout" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="minusLayout" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1267,844][1426,939]" drawing-order="4" hint="" display-id="0" />
+            <node index="2" text="" resource-id="com.bmwgroup.idnext.overlay:id/minusIcon" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1300,887][1323,910]" drawing-order="7" hint="" display-id="0" />
+            <node index="3" text="" resource-id="com.bmwgroup.idnext.overlay:id/temperatureLayout" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="temperatureLayout" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1426,844][1631,934]" drawing-order="3" hint="" display-id="0">
+              <node index="0" text="22" resource-id="com.bmwgroup.idnext.overlay:id/textViewNumDegrees" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1459,852][1523,930]" drawing-order="1" hint="" display-id="0" />
+              <node index="1" text="°" resource-id="com.bmwgroup.idnext.overlay:id/temperatureUnit" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1526,862][1541,908]" drawing-order="2" hint="" display-id="0" />
+              <node index="2" text="" resource-id="com.bmwgroup.idnext.overlay:id/drawerButton" class="android.widget.ImageView" package="com.android.systemui" content-desc="seat_heating_indicator" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1549,859][1598,930]" drawing-order="3" hint="" display-id="0" />
+            </node>
+            <node index="4" text="AUTO OFF" resource-id="com.bmwgroup.idnext.overlay:id/modeText" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1450,921][1606,958]" drawing-order="2" hint="" display-id="0" />
+            <node index="5" text="" resource-id="com.bmwgroup.idnext.overlay:id/plusLayout" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="plusLayout" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1631,844][1789,939]" drawing-order="5" hint="" display-id="0" />
+            <node index="6" text="" resource-id="com.bmwgroup.idnext.overlay:id/plusIcon" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1733,887][1756,910]" drawing-order="6" hint="" display-id="0" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node index="0" text="" resource-id="com.android.systemui:id/navigation_bar_frame" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1214,0][1920,76]" drawing-order="0" hint="" display-id="0">
+    <node index="0" text="" resource-id="com.android.systemui:id/car_top_bar" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1214,0][1920,76]" drawing-order="1" hint="" display-id="0">
+      <node index="0" text="" resource-id="" class="android.widget.RelativeLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1214,0][1920,76]" drawing-order="2" hint="" display-id="0">
+        <node index="1" text="" resource-id="com.android.systemui:id/bmw_statusbar_side_shadow" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1214,0][1247,76]" drawing-order="2" hint="" display-id="0" />
+        <node index="2" text="" resource-id="com.android.systemui:id/bmw_statusbar_background_view" class="android.view.View" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1214,0][1920,76]" drawing-order="3" hint="" display-id="0" />
+        <node index="3" text="" resource-id="com.android.systemui:id/right_status_bar_area" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1214,0][1900,76]" drawing-order="4" hint="" display-id="0">
+          <node index="0" text="" resource-id="com.android.systemui:id/reducible_icon_area" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1214,0][1761,76]" drawing-order="1" hint="" display-id="0">
+            <node NAF="true" index="0" text="" resource-id="com.android.systemui:id/notification" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1214,0][1294,76]" drawing-order="2" hint="" display-id="0" />
+            <node index="1" text="" resource-id="com.android.systemui:id/statusbar_notification_icons" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1294,0][1446,76]" drawing-order="4" hint="" display-id="0">
+              <node NAF="true" index="0" text="" resource-id="com.android.systemui:id/navigation_layout" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1294,0][1370,76]" drawing-order="1" hint="" display-id="0">
+                <node index="0" text="" resource-id="com.android.systemui:id/icon" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1294,0][1370,76]" drawing-order="1" hint="" display-id="0" />
+              </node>
+              <node NAF="true" index="1" text="" resource-id="com.android.systemui:id/navigation_layout" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1370,0][1446,76]" drawing-order="2" hint="" display-id="0">
+                <node index="0" text="" resource-id="com.android.systemui:id/icon" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1370,0][1446,76]" drawing-order="1" hint="" display-id="0" />
+              </node>
+            </node>
+            <node index="2" text="" resource-id="com.android.systemui:id/media" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1446,0][1591,76]" drawing-order="5" hint="" display-id="0">
+              <node index="0" text="B5 akt" resource-id="com.android.systemui:id/text" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1446,0][1591,76]" drawing-order="1" hint="" display-id="0" />
+            </node>
+            <node NAF="true" index="3" text="" resource-id="com.android.systemui:id/mute" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1591,0][1667,76]" drawing-order="6" hint="" display-id="0" />
+            <node NAF="true" index="4" text="" resource-id="com.android.systemui:id/user" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1667,0][1761,76]" drawing-order="8" hint="" display-id="0">
+              <node index="0" text="" resource-id="com.android.systemui:id/user_image" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1688,12][1740,64]" drawing-order="1" hint="" display-id="0" />
+            </node>
+          </node>
+          <node index="1" text="" resource-id="com.android.systemui:id/clock" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1761,0][1900,76]" drawing-order="2" hint="" display-id="0">
+            <node index="0" text="12:21" resource-id="com.android.systemui:id/google_clock" class="android.widget.TextView" package="com.android.systemui" content-desc="12:21" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1779,0][1882,76]" drawing-order="1" hint="" display-id="0" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="0" hint="" display-id="0">
+    <node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="1" hint="" display-id="0">
+      <node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="2" hint="" display-id="0">
+        <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/action_bar_root" class="android.widget.LinearLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="1" hint="" display-id="0">
+          <node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="2" hint="" display-id="0">
+            <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/root_layout" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="1" hint="" display-id="0">
+              <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/background_view" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="2" hint="" display-id="0">
+                <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/background_image" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="1" hint="" display-id="0" />
+              </node>
+              <node index="1" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/standard_activity_chrome" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="5" hint="" display-id="0">
+                <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/back_arrow_no_navigation" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,76][180,960]" drawing-order="4" hint="" display-id="0">
+                  <node NAF="true" index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/side_navigation_back_arrow" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,370][180,546]" drawing-order="1" hint="" display-id="0">
+                    <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/back_arrow_icon" class="android.view.View" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[54,422][126,494]" drawing-order="2" hint="" display-id="0" />
+                  </node>
+                </node>
+              </node>
+              <node index="2" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/container_focus_area" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="3" hint="" display-id="0">
+                <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/container" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="1" hint="" display-id="0">
+                  <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/container" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="1" hint="" display-id="0">
+                    <node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,960]" drawing-order="1" hint="" display-id="0">
+                      <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/fragment_root_layout" class="com.android.car.ui.FocusArea" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,860]" drawing-order="1" hint="" display-id="0">
+                        <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/themes" class="androidx.recyclerview.widget.RecyclerView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="com.android.car.ui.utils.HORIZONTALLY_SCROLLABLE" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,100][1920,860]" drawing-order="1" hint="" display-id="0">
+                          <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/theme_container" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[204,122][741,809]" drawing-order="1" hint="" display-id="0">
+                            <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/background_image" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[204,122][741,809]" drawing-order="1" hint="" display-id="0" />
+                            <node index="1" text="" resource-id="" class="android.view.View" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[204,122][741,809]" drawing-order="3" hint="" display-id="0" />
+                            <node index="2" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/card_content" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[204,122][741,809]" drawing-order="4" hint="" display-id="0">
+                              <node index="0" text="" resource-id="" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[204,122][741,809]" drawing-order="1" hint="" display-id="0">
+                                <node index="0" text="PERSONAL" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/theme_name" class="android.widget.TextView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[236,148][709,217]" drawing-order="1" hint="" display-id="0" />
+                                <node index="1" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/divider" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[228,225][721,239]" drawing-order="2" hint="" display-id="0" />
+                                <node index="2" text="Active" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/activated_line" class="android.widget.TextView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[236,249][345,305]" drawing-order="3" hint="" display-id="0" />
+                                <node NAF="true" index="3" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/button_settings" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[613,681][709,777]" drawing-order="6" hint="" display-id="0">
+                                  <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/button_icon" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[613,681][709,777]" drawing-order="1" hint="" display-id="0">
+                                    <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/icon_container" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[613,681][709,777]" drawing-order="1" hint="" display-id="0">
+                                      <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/icon_loading_animation" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[613,681][709,777]" drawing-order="1" hint="" display-id="0" />
+                                      <node index="1" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/icon_image" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[625,693][697,765]" drawing-order="2" hint="" display-id="0" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node index="1" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/theme_container" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[777,122][1314,809]" drawing-order="2" hint="" display-id="0">
+                            <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/background_image" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[777,122][1314,809]" drawing-order="1" hint="" display-id="0" />
+                            <node index="1" text="" resource-id="" class="android.view.View" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[777,122][1314,809]" drawing-order="3" hint="" display-id="0" />
+                            <node index="2" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/card_content" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[777,122][1314,809]" drawing-order="4" hint="" display-id="0">
+                              <node index="0" text="" resource-id="" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[777,122][1314,809]" drawing-order="1" hint="" display-id="0">
+                                <node index="0" text="SPORT" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/theme_name" class="android.widget.TextView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[809,148][1282,217]" drawing-order="1" hint="" display-id="0" />
+                              </node>
+                            </node>
+                          </node>
+                          <node index="2" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/theme_container" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[1350,122][1887,809]" drawing-order="3" hint="" display-id="0">
+                            <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/background_image" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1350,122][1887,809]" drawing-order="1" hint="" display-id="0" />
+                            <node index="1" text="" resource-id="" class="android.view.View" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1350,122][1887,809]" drawing-order="3" hint="" display-id="0" />
+                            <node index="2" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/card_content" class="android.widget.FrameLayout" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1350,122][1887,809]" drawing-order="4" hint="" display-id="0">
+                              <node index="0" text="" resource-id="" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1350,122][1887,809]" drawing-order="1" hint="" display-id="0">
+                                <node index="0" text="EFFICIENT" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/theme_name" class="android.widget.TextView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1382,148][1855,217]" drawing-order="1" hint="" display-id="0" />
+                                <node NAF="true" index="1" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/det_toggle_button" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1382,681][1478,777]" drawing-order="4" hint="" display-id="0">
+                                  <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/button_icon" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1382,681][1478,777]" drawing-order="1" hint="" display-id="0">
+                                    <node NAF="true" index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/icon_background" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[1382,681][1478,777]" drawing-order="1" hint="" display-id="0" />
+                                    <node index="1" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/icon_loading_animation" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1382,681][1478,777]" drawing-order="2" hint="" display-id="0" />
+                                    <node index="2" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/icon_container" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1382,681][1478,777]" drawing-order="4" hint="" display-id="0">
+                                      <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/icon_container_loading_animation_mini" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1382,681][1478,777]" drawing-order="1" hint="" display-id="0" />
+                                      <node index="1" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/icon_container_dot_mini" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1382,681][1478,777]" drawing-order="2" hint="" display-id="0" />
+                                      <node index="3" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/icon_image" class="android.widget.ImageView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1394,693][1466,765]" drawing-order="3" hint="" display-id="0" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node index="2" text="Activate&#10;MAX RANGE" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/det_text" class="android.widget.TextView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1494,684][1887,775]" drawing-order="5" hint="" display-id="0" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node index="3" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/activity_title_bar" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][1920,76]" drawing-order="4" hint="" display-id="0">
+                <node index="0" text="" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/activity_title_bar_statusbar_layout" class="android.view.ViewGroup" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[180,0][1920,73]" drawing-order="1" hint="" display-id="0">
+                  <node index="0" text="MY MODES" resource-id="com.bmwgroup.idnext.uicomponents.themeswitcher:id/statusbar_title" class="android.widget.TextView" package="com.bmwgroup.idnext.uicomponents.themeswitcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[201,12][1920,73]" drawing-order="2" hint="" display-id="0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</hierarchy>
+"""
+Think step by step:
+1. Identify all matching nodes based on available attributes (e.g., resource-id, class, text).
+2. If multiple nodes match, compare their hierarchical position or bounds.
+3. Select the node that best aligns with the intended UI element.
+4. If a selector alone is insufficient, suggest an alternative programmatic solution compatible with Android UI automation.
+If multiple matching elements exist, determine the selector that uniquely identifies the correct element based on available XML attributes or hierarchical structure. If selector-based identification is insufficient to uniquely identify the UI element, provide an alternative solution that allows the correct UI element to be targeted programmatically using python. Ensure the solution is compatible with the UIAutomator2 Python library. Return only the final solution, either as a UI selector or a compatible programmatic expression.
+==========================
+Response 1: 
+To identify the active mode in the provided XML dump, we need to locate the node that contains the text indicating the mode. The relevant node in this case is the one with the text "AUTO OFF" and the resource-id "com.bmwgroup.idnext.overlay:id/modeText".
+
+Here is the UI selector that uniquely identifies this element:
+
+```python
+resourceId("com.bmwgroup.idnext.overlay:id/modeText")
+```
+
+If you need to use this selector programmatically with the UIAutomator2 Python library, you can use the following code:
+
+```python
+from uiautomator2 import Device
+
+# Connect to the device
+d = Device()
+
+# Locate the element using the resource-id
+mode_element = d(resourceId="com.bmwgroup.idnext.overlay:id/modeText")
+
+# Retrieve the text of the mode element
+active_mode = mode_element.get_text()
+print(f"Active mode: {active_mode}")
+```
+
+This code will connect to the device, locate the element with the specified resource-id, and print the text of the active mode.
+==========================
+Response 2: 
+Based on the provided XML dump, the node that indicates which mode is active is the one with the resource-id `com.bmwgroup.idnext.overlay:id/modeText` and the text attribute that contains the mode name (e.g., "AUTO OFF").
+
+To uniquely identify this node using a UI selector, you can use the following selector:
+
+```python
+selector = 'new UiSelector().resourceId("com.bmwgroup.idnext.overlay:id/modeText")'
+```
+
+If you need to retrieve the text of this node programmatically using the UIAutomator2 Python library, you can use the following code:
+
+```python
+import uiautomator2 as u2
+
+# Connect to the device
+d = u2.connect()
+
+# Find the node with the resource-id and get its text
+mode_text = d(resourceId="com.bmwgroup.idnext.overlay:id/modeText").get_text()
+
+print("Active mode:", mode_text)
+```
+
+This code will connect to the device, find the node with the specified resource-id, and print the text of that node, which indicates the active mode.
+==========================
+Response 3: 
+Based on the provided XML dump, the node that indicates which mode is active is the one with the resource-id `com.bmwgroup.idnext.overlay:id/modeText` and the text attribute indicating the mode (e.g., "AUTO OFF").
+
+To uniquely identify this node using a UI selector, you can use the following selector:
+
+```python
+resourceId("com.bmwgroup.idnext.overlay:id/modeText")
+```
+
+If you need to ensure that the text attribute is also considered to identify the active mode, you can use:
+
+```python
+resourceId("com.bmwgroup.idnext.overlay:id/modeText").text("AUTO OFF")
+```
+
+In case you need to programmatically interact with this element using the UIAutomator2 Python library, you can use the following code:
+
+```python
+from uiautomator2 import Device
+
+# Connect to the device
+d = Device()
+
+# Find the element by resource-id and text
+mode_element = d(resourceId="com.bmwgroup.idnext.overlay:id/modeText", text="AUTO OFF")
+
+# Perform actions on the element if needed
+if mode_element.exists:
+    print("Active mode:", mode_element.text)
+```
+
+This solution ensures that the correct UI element is targeted based on the provided XML attributes and is compatible with the UIAutomator2 Python library.
+==========================
+Response 4: 
+To identify the active mode in the provided XML dump, we need to locate the node that contains the text indicating the mode. In this case, the mode text is "AUTO OFF". 
+
+Based on the XML structure, the relevant node has the following attributes:
+- `resource-id`: `com.bmwgroup.idnext.overlay:id/modeText`
+- `class`: `android.widget.TextView`
+- `text`: `AUTO OFF`
+
+Here is the UI selector that uniquely identifies this element:
+
+```python
+selector = 'new UiSelector().resourceId("com.bmwgroup.idnext.overlay:id/modeText").className("android.widget.TextView").text("AUTO OFF")'
+```
+
+If you need to use this selector programmatically with the UIAutomator2 Python library, you can use the following code:
+
+```python
+import uiautomator2 as u2
+
+# Connect to the device
+d = u2.connect()
+
+# Use the selector to find the element
+mode_element = d(resourceId="com.bmwgroup.idnext.overlay:id/modeText", className="android.widget.TextView", text="AUTO OFF")
+
+# Check if the element exists and get its text
+if mode_element.exists:
+    active_mode = mode_element.get_text()
+    print(f"Active mode: {active_mode}")
+else:
+    print("Mode element not found")
+```
+
+This code connects to the device, uses the selector to find the mode element, and prints the active mode if the element is found.
+==========================
+Response 5: 
+To identify the active mode in the provided XML dump, we need to locate the node that contains the text indicating the mode. Based on the XML structure, the relevant node is:
+
+```xml
+<node index="4" text="AUTO OFF" resource-id="com.bmwgroup.idnext.overlay:id/modeText" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[314,921][470,958]" drawing-order="2" hint="" display-id="0" />
+```
+
+This node has the `resource-id` attribute `com.bmwgroup.idnext.overlay:id/modeText` and the `class` attribute `android.widget.TextView`. The text attribute contains the mode information.
+
+To uniquely identify this element using the UIAutomator2 Python library, you can use the following selector:
+
+```python
+d(resourceId="com.bmwgroup.idnext.overlay:id/modeText", className="android.widget.TextView")
+```
+
+This selector targets the `TextView` element with the specified `resource-id`. You can then retrieve the text of this element to determine the active mode.
+
+Here is a complete example of how you can use this selector in a Python script with the UIAutomator2 library:
+
+```python
+import uiautomator2 as u2
+
+# Connect to the device
+d = u2.connect()
+
+# Find the element that indicates the active mode
+mode_element = d(resourceId="com.bmwgroup.idnext.overlay:id/modeText", className="android.widget.TextView")
+
+# Retrieve the text of the element
+active_mode = mode_element.get_text()
+
+# Print the active mode
+print(f"The active mode is: {active_mode}")
+```
+
+This script connects to the device, finds the element that indicates the active mode, retrieves its text, and prints the active mode.
+==========================
+Response 6: 
+To identify the active mode in the provided XML dump, we need to locate the node that contains the text indicating the mode. Based on the XML structure, the relevant node is:
+
+```xml
+<node index="4" text="AUTO OFF" resource-id="com.bmwgroup.idnext.overlay:id/modeText" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[314,921][470,958]" drawing-order="2" hint="" display-id="0" />
+```
+
+This node has the `resource-id` attribute `com.bmwgroup.idnext.overlay:id/modeText` and the `class` attribute `android.widget.TextView`. The text attribute contains the mode information.
+
+### UIAutomator2 Selector
+
+To uniquely identify this element using the UIAutomator2 Python library, you can use the following selector:
+
+```python
+d(resourceId="com.bmwgroup.idnext.overlay:id/modeText", className="android.widget.TextView")
+```
+
+### Programmatic Solution
+
+If you need to retrieve the text programmatically to determine the active mode, you can use the following code snippet:
+
+```python
+from uiautomator2 import Device
+
+# Connect to the device
+d = Device()
+
+# Locate the element
+mode_element = d(resourceId="com.bmwgroup.idnext.overlay:id/modeText", className="android.widget.TextView")
+
+# Retrieve the text
+active_mode = mode_element.get_text()
+
+print(f"Active mode: {active_mode}")
+```
+
+This code will connect to the device, locate the element with the specified `resource-id` and `class`, and then retrieve and print the text indicating the active mode.
+==========================
+Response 7: 
+Based on the provided XML dump, the node that indicates which mode is active is the one with the resource-id `com.bmwgroup.idnext.overlay:id/modeText` and the text attribute indicating the mode (e.g., "AUTO OFF").
+
+To uniquely identify this node using a UI selector, you can use the following selector:
+
+```python
+selector = 'new UiSelector().resourceId("com.bmwgroup.idnext.overlay:id/modeText")'
+```
+
+If you need to retrieve the text of this node programmatically using the UIAutomator2 Python library, you can use the following code:
+
+```python
+import uiautomator2 as u2
+
+# Connect to the device
+d = u2.connect()
+
+# Find the node and get its text
+mode_text = d(resourceId="com.bmwgroup.idnext.overlay:id/modeText").get_text()
+print("Active mode:", mode_text)
+```
+
+This code will connect to the device, find the node with the specified resource-id, and print the text of the active mode.
+==========================
+Response 8: 
+To identify the active mode in the provided XML dump, we need to locate the node that contains the text indicating the mode. Based on the XML structure, the relevant node is:
+
+```xml
+<node index="4" text="AUTO OFF" resource-id="com.bmwgroup.idnext.overlay:id/modeText" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[314,921][470,958]" drawing-order="2" hint="" display-id="0" />
+```
+
+This node has the `resource-id` attribute `com.bmwgroup.idnext.overlay:id/modeText` and the `class` attribute `android.widget.TextView`. The text attribute contains the mode information.
+
+### UI Selector:
+The selector to uniquely identify this node is:
+
+```python
+resourceId("com.bmwgroup.idnext.overlay:id/modeText")
+```
+
+### Programmatic Solution:
+If you need to retrieve the text programmatically using the UIAutomator2 Python library, you can use the following code:
+
+```python
+import uiautomator2 as u2
+
+# Connect to the device
+d = u2.connect()
+
+# Retrieve the text of the active mode
+active_mode = d(resourceId="com.bmwgroup.idnext.overlay:id/modeText").get_text()
+print("Active Mode:", active_mode)
+```
+
+This code connects to the device, locates the element with the specified `resource-id`, retrieves its text, and prints the active mode.
+==========================
+Response 9: 
+To identify the active mode in the provided XML dump, we need to locate the node that contains the text indicating the mode. Based on the XML structure, the relevant node is:
+
+```xml
+<node index="4" text="AUTO OFF" resource-id="com.bmwgroup.idnext.overlay:id/modeText" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[314,921][470,958]" drawing-order="2" hint="" display-id="0" />
+```
+
+This node has the `resource-id` attribute `com.bmwgroup.idnext.overlay:id/modeText` and the `class` attribute `android.widget.TextView`. The text attribute contains the mode information.
+
+To uniquely identify this element using the UIAutomator2 Python library, you can use the following selector:
+
+```python
+d(resourceId="com.bmwgroup.idnext.overlay:id/modeText", className="android.widget.TextView")
+```
+
+This selector targets the `TextView` element with the specified `resource-id`. You can then retrieve the text to determine the active mode.
+
+Here is a Python code snippet using the UIAutomator2 library to get the active mode:
+
+```python
+import uiautomator2 as u2
+
+# Connect to the device
+d = u2.connect()
+
+# Get the text of the modeText element
+active_mode = d(resourceId="com.bmwgroup.idnext.overlay:id/modeText", className="android.widget.TextView").get_text()
+
+print(f"Active mode: {active_mode}")
+```
+
+This code connects to the device, locates the `TextView` element with the `resource-id` `com.bmwgroup.idnext.overlay:id/modeText`, retrieves its text, and prints the active mode.
+==========================
+Response 10: 
+Based on the provided XML dump, the node that indicates which mode is active is the one with the resource-id `com.bmwgroup.idnext.overlay:id/modeText` and the text attribute that contains the mode name (e.g., "AUTO OFF").
+
+To uniquely identify this node using a UI selector, you can use the following selector:
+
+```python
+selector = 'new UiSelector().resourceId("com.bmwgroup.idnext.overlay:id/modeText")'
+```
+
+If you need to retrieve the text of this node programmatically using the UIAutomator2 Python library, you can use the following code:
+
+```python
+import uiautomator2 as u2
+
+# Connect to the device
+d = u2.connect()
+
+# Find the node with the resource-id and get its text
+mode_text = d(resourceId="com.bmwgroup.idnext.overlay:id/modeText").get_text()
+
+print("Active mode:", mode_text)
+```
+
+This code will connect to the device, find the node with the specified resource-id, and print the text of that node, which indicates the active mode.
+==========================
