@@ -1,0 +1,55 @@
+Prompt:
+Identify the grid cell(s) containing the button to unmute the current playing radio station in the provided UI screenshot. The image is divided into a grid overlay with 300 numbered cells: 
+"""
+https://i.ibb.co/HDMTFmYk/mutedradiostation-numbered-grid-300.png
+"""
+Return only the grid cell number(s) in parenthesis, separated by commas if multiple cells are involved.
+Answer: (151)
+Identify the grid cell(s) containing the "Home" button in the provided UI screenshot. The image is divided into a grid overlay with 300 numbered cells: 
+"""
+https://i.ibb.co/HDMTFmYk/mutedradiostation-numbered-grid-300.png
+"""
+Return only the grid cell number(s) in parenthesis, separated by commas if multiple cells are involved.
+Answer: (269, 270, 289, 290)
+Identify the grid cell(s) containing the plus icon for the driver's climate control located on the right side in the provided UI screenshot. The image is divided into a grid overlay with 300 numbered cells: 
+"""
+https://i.ibb.co/HDMTFmYk/mutedradiostation-numbered-grid-300.png
+"""
+Return only the grid cell number(s) in parenthesis, separated by commas if multiple cells are involved.
+Answer: (278, 296)
+Identify the grid cell(s) containing the "Audio Source Selector" button in the provided 1920x960 pixel UI screenshot. The image is divided into a grid overlay with 300 numbered cells: 
+"""
+https://i.ibb.co/HDMTFmYk/mutedradiostation-numbered-grid-300.png
+"""
+Return only the grid cell number(s) in parenthesis, separated by commas if multiple cells are involved.
+==========================
+Response 1: 
+(023, 042)
+==========================
+Response 2: 
+(023, 024, 043, 044)
+==========================
+Response 3: 
+(023, 042)
+==========================
+Response 4: 
+(023, 042)
+==========================
+Response 5: 
+(023, 042)
+==========================
+Response 6: 
+(023, 042)
+==========================
+Response 7: 
+(023, 042)
+==========================
+Response 8: 
+(023, 042)
+==========================
+Response 9: 
+(023, 042)
+==========================
+Response 10: 
+(023, 042)
+==========================

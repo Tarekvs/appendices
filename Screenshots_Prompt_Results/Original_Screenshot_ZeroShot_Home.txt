@@ -1,0 +1,33 @@
+Prompt: Identify the bounding box coordinates for the "Home" button, in the provided 1920x960 pixel UI screenshot: """
+https://i.ibb.co/mVwc5CDX/Home.png"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+Response 1: 
+(960, 860, 1020, 920)
+==========================
+Response 2: 
+(960, 860, 1020, 920)
+==========================
+Response 3: 
+(930, 850, 990, 910)
+==========================
+Response 4: 
+(930, 850, 990, 910)
+==========================
+Response 5: 
+(930, 850, 990, 910)
+==========================
+Response 6: 
+(930, 850, 990, 910)
+==========================
+Response 7: 
+(930, 850, 990, 910)
+==========================
+Response 8: 
+(930, 850, 990, 910)
+==========================
+Response 9: 
+(930, 850, 990, 910)
+==========================
+Response 10: 
+(930, 850, 990, 910)
+==========================

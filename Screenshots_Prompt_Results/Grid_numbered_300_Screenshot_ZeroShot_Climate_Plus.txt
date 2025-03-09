@@ -1,0 +1,33 @@
+Prompt: Identify the grid cell(s) containing the plus icon for the driver's climate control located on the right side in the provided 1920x960 pixel UI screenshot. The image is divided into a grid overlay with 300 numbered cells: """
+https://i.ibb.co/HDMTFmYk/mutedradiostation-numbered-grid-300.png"""
+Return only the grid cell number(s) in parenthesis, separated by commas if multiple cells are involved.
+Response 1: 
+(286)
+==========================
+Response 2: 
+(298)
+==========================
+Response 3: 
+(286)
+==========================
+Response 4: 
+(286)
+==========================
+Response 5: 
+(298)
+==========================
+Response 6: 
+(286)
+==========================
+Response 7: 
+(286)
+==========================
+Response 8: 
+(298)
+==========================
+Response 9: 
+(286)
+==========================
+Response 10: 
+(286)
+==========================

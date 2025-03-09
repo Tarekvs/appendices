@@ -1,0 +1,55 @@
+Prompt:
+Identify the bounding box coordinates for the "Home" button, in the provided 1920x960 pixel UI screenshot. The image is divided into a grid overlay, with each cell having a width of 50 pixels and a height of 50 pixels. Use the grid cells as reference points to accurately determine the location: 
+"""
+https://i.ibb.co/Q7f3hrxB/mutedradiostation-grid.png
+"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+Answer: (900, 840, 1020, 960)
+Identify the bounding box coordinates for the "Audio Source Selector" button, in the provided 1920x960 pixel UI screenshot. The image is divided into a grid overlay, with each cell having a width of 50 pixels and a height of 50 pixels. Use the grid cells as reference points to accurately determine the location: 
+"""
+https://i.ibb.co/Q7f3hrxB/mutedradiostation-grid.png
+"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+Answer: (204, 76, 354, 172)
+Identify the bounding box coordinates for the button to unmute the current playing radio station, in the provided 1920x960 pixel UI screenshot. The image is divided into a grid overlay, with each cell having a width of 50 pixels and a height of 50 pixels. Use the grid cells as reference points to accurately determine the location: 
+"""
+https://i.ibb.co/Q7f3hrxB/mutedradiostation-grid.png
+"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+Answer: (1081, 461, 1153, 533)
+Identify the bounding box coordinates of the plus icon for the driver's climate control located on the right side, in the provided 1920x960 pixel UI screenshot. The image is divided into a grid overlay, with each cell having a width of 50 pixels and a height of 50 pixels. Use the grid cells as reference points to accurately determine the location: 
+"""
+https://i.ibb.co/Q7f3hrxB/mutedradiostation-grid.png
+"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+==========================
+Response 1: 
+Answer: (1370, 860, 1420, 910)
+==========================
+Response 2: 
+(1850, 910, 1920, 960)
+==========================
+Response 3: 
+Answer: (1370, 860, 1420, 910)
+==========================
+Response 4: 
+Answer: (1370, 860, 1420, 910)
+==========================
+Response 5: 
+Answer: (1370, 860, 1420, 910)
+==========================
+Response 6: 
+Answer: (1370, 860, 1420, 910)
+==========================
+Response 7: 
+Answer: (1370, 860, 1420, 910)
+==========================
+Response 8: 
+(1850, 910, 1920, 960)
+==========================
+Response 9: 
+(1370, 860, 1420, 910)
+==========================
+Response 10: 
+(1820, 860, 1920, 960)
+==========================

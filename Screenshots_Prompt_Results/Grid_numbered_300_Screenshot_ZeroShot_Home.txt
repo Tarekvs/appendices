@@ -1,0 +1,33 @@
+Prompt: Identify the grid cell(s) containing the "Home" button in the provided 1920x960 pixel UI screenshot. The image is divided into a grid overlay with 300 numbered cells: """
+https://i.ibb.co/HDMTFmYk/mutedradiostation-numbered-grid-300.png"""
+Return only the grid cell number(s) in parenthesis, separated by commas if multiple cells are involved.
+Response 1: 
+(268)
+==========================
+Response 2: 
+(268)
+==========================
+Response 3: 
+(268)
+==========================
+Response 4: 
+(269)
+==========================
+Response 5: 
+(268)
+==========================
+Response 6: 
+(269)
+==========================
+Response 7: 
+(268)
+==========================
+Response 8: 
+(268)
+==========================
+Response 9: 
+(268)
+==========================
+Response 10: 
+(268)
+==========================

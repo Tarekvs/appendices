@@ -1,0 +1,33 @@
+Prompt: Identify the bounding box coordinates for the "Audio Source Selector" button, in the provided 1920x960 pixel UI screenshot. The image is divided into a grid overlay, with each cell having a width of 100 pixels and a height of 100 pixels. Use the grid cells as reference points to accurately determine the location: """
+https://i.ibb.co/Z1Vv6dKF/mutedradiostation-grid.png"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+Response 1: 
+(1100, 400, 1200, 500)
+==========================
+Response 2: 
+(1300, 300, 1400, 400)
+==========================
+Response 3: 
+(300, 300, 400, 400)
+==========================
+Response 4: 
+(1100, 400, 1200, 500)
+==========================
+Response 5: 
+(300, 200, 400, 300)
+==========================
+Response 6: 
+(1100, 400, 1200, 500)
+==========================
+Response 7: 
+(1100, 400, 1200, 500)
+==========================
+Response 8: 
+(1300, 400, 1400, 500)
+==========================
+Response 9: 
+(1100, 400, 1200, 500)
+==========================
+Response 10: 
+(1300, 300, 1400, 400)
+==========================
