@@ -1,0 +1,34 @@
+Prompt: Identify the bounding box coordinates for the "Audio Source Selector" button, in the provided 1920x960 pixel UI screenshot. The image is enclosed by a red border to clearly indicate its boundaries: """
+https://i.ibb.co/MyDdC24s/image-with-border.png"""
+ Think step by step: 1) Examine the image within the red border. 2) Identify the "Audio Source Selector" button by analyzing its visual characteristics. 3) Determine the precise bounding box coordinates around the button.4) Visualize the bounding box using the identified coordinates and verify that the "Audio Source Selector" button is fully contained within it. If the bounding box does not properly contain the button, repeat the process.
+Return only the bounding box coordinates in the format (x1, y1, x2, y2).
+Response 1: 
+(60, 60, 120, 120)
+==========================
+Response 2: 
+(60, 60, 120, 120)
+==========================
+Response 3: 
+(60, 60, 120, 120)
+==========================
+Response 4: 
+(60, 60, 120, 120)
+==========================
+Response 5: 
+(60, 60, 120, 120)
+==========================
+Response 6: 
+(60, 60, 120, 120)
+==========================
+Response 7: 
+(60, 60, 120, 120)
+==========================
+Response 8: 
+(60, 60, 120, 120)
+==========================
+Response 9: 
+(60, 60, 120, 120)
+==========================
+Response 10: 
+(60, 60, 120, 120)
+==========================

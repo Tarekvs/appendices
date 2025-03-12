@@ -1,0 +1,55 @@
+Prompt:
+Identify the bounding box coordinates for the "Home" button, in the provided 1920x960 pixel UI screenshot. The image is enclosed by a red border to clearly indicate its boundaries:  
+"""
+https://i.ibb.co/zW7SnTqc/mutedradiostation-border.png
+"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+Answer: (900, 840, 1020, 960)
+Identify the bounding box coordinates of the plus icon for the driver's climate control located on the right side, in the provided 1920x960 pixel UI screenshot. The image is enclosed by a red border to clearly indicate its boundaries: 
+"""
+https://i.ibb.co/zW7SnTqc/mutedradiostation-border.png
+"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+Answer: (1631, 844, 354, 172)
+Identify the bounding box coordinates for the "Audio Source Selector" button, in the provided 1920x960 pixel UI screenshot. The image is enclosed by a red border to clearly indicate its boundaries:  
+"""
+https://i.ibb.co/zW7SnTqc/mutedradiostation-border.png
+"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+Answer: (204, 76, 354, 172)
+Identify the bounding box coordinates for the button to unmute the current playing radio station, in the provided 1920x960 pixel UI screenshot. The image is enclosed by a red border to clearly indicate its boundaries:  
+"""
+https://i.ibb.co/zW7SnTqc/mutedradiostation-border.png
+"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+==========================
+Response 1: 
+(1360, 420, 1420, 480)
+==========================
+Response 2: 
+Answer: (1360, 400, 1440, 480)
+==========================
+Response 3: 
+Answer: (1360, 420, 1440, 500)
+==========================
+Response 4: 
+Answer: (1360, 400, 1440, 480)
+==========================
+Response 5: 
+Answer: (1360, 400, 1440, 480)
+==========================
+Response 6: 
+(1360, 420, 1420, 480)
+==========================
+Response 7: 
+(1360, 420, 1420, 480)
+==========================
+Response 8: 
+Answer: (1360, 400, 1440, 480)
+==========================
+Response 9: 
+(1360, 420, 1420, 480)
+==========================
+Response 10: 
+(1360, 420, 1420, 480)
+==========================

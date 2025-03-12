@@ -1,0 +1,33 @@
+Prompt: Identify the grid cell(s) containing the button to unmute the current playing radio station in the provided UI screenshot. The image is divided into a grid overlay with 300 numbered cells: """
+https://i.ibb.co/HDMTFmYk/mutedradiostation-numbered-grid-300.png"""
+Return only the grid cell number(s) in parenthesis, separated by commas if multiple cells are involved.
+Response 1: 
+(151)
+==========================
+Response 2: 
+(151)
+==========================
+Response 3: 
+(151)
+==========================
+Response 4: 
+(151)
+==========================
+Response 5: 
+(151)
+==========================
+Response 6: 
+(151)
+==========================
+Response 7: 
+(151)
+==========================
+Response 8: 
+(151)
+==========================
+Response 9: 
+(151)
+==========================
+Response 10: 
+(151)
+==========================

@@ -1,0 +1,33 @@
+Prompt: Identify the bounding box coordinates for the plus icon for the driver's climate control located on the right side, in the provided 1920x960 pixel UI screenshot. The image is divided into a grid overlay, with each cell having a width of 100 pixels and a height of 100 pixels. Use the grid cells as reference points to accurately determine the location: """
+https://i.ibb.co/Z1Vv6dKF/mutedradiostation-grid.png"""
+Return only the bounding box coordinates in the format (x1, y1, x2, y2)
+Response 1: 
+(1800, 860, 1900, 960)
+==========================
+Response 2: 
+(1800, 800, 1900, 900)
+==========================
+Response 3: 
+(1800, 800, 1900, 900)
+==========================
+Response 4: 
+(1800, 800, 1900, 900)
+==========================
+Response 5: 
+(1800, 800, 1900, 900)
+==========================
+Response 6: 
+(1800, 800, 1900, 900)
+==========================
+Response 7: 
+(1800, 800, 1900, 900)
+==========================
+Response 8: 
+(1800, 800, 1900, 900)
+==========================
+Response 9: 
+(1800, 800, 1900, 900)
+==========================
+Response 10: 
+(1800, 800, 1900, 900)
+==========================

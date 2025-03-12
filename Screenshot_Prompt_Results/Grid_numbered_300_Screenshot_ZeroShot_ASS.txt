@@ -1,0 +1,33 @@
+Prompt: Identify the grid cell(s) containing the "Audio Source Selector" button in the provided 1920x960 pixel UI screenshot. The image is divided into a grid overlay with 300 numbered cells: """
+https://i.ibb.co/HDMTFmYk/mutedradiostation-numbered-grid-300.png"""
+Return only the grid cell number(s) in parenthesis, separated by commas if multiple cells are involved.
+Response 1: 
+(142)
+==========================
+Response 2: 
+(142)
+==========================
+Response 3: 
+(142)
+==========================
+Response 4: 
+(142)
+==========================
+Response 5: 
+(142)
+==========================
+Response 6: 
+(142)
+==========================
+Response 7: 
+(142)
+==========================
+Response 8: 
+(142)
+==========================
+Response 9: 
+(142)
+==========================
+Response 10: 
+(142)
+==========================
