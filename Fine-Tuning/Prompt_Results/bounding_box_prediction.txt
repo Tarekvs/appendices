@@ -1,33 +1,32 @@
-
-Prompt: Detect  
+Prompt: Detect Audio Source Selector 
 """https://i.ibb.co/0pLLhxwX/original.png"""
 Response 1: 
-(0083, 0123, 0143, 0163)
+<loc0083><loc0123><loc0143><loc0163> Audio Source Selector
 ==========================
 Response 2: 
-(0085, 0000, 0128, 0043)  
+<loc0085><loc0000><loc0128><loc0043> Audio Source Selector
 ==========================
 Response 3: 
-(0085, 0000, 0128, 0043)  
+<loc0085><loc0000><loc0128><loc0043> Audio Source Selector
 ==========================
 Response 4: 
-(0083, 0123, 0143, 0163)  
+<loc0083><loc0123><loc0143><loc0163> Audio Source Selector
 ==========================
 Response 5: 
-(0085, 0000, 0128, 0043)  
+<loc0085><loc0000><loc0128><loc0043> Audio Source Selector
 ==========================
 Response 6: 
-(0083, 0123, 0143, 0163)  
+<loc0083><loc0123><loc0143><loc0163> Audio Source Selector
 ==========================
 Response 7: 
-(0085, 0000, 0128, 0043)  
+<loc0085><loc0000><loc0128><loc0043> Audio Source Selector
 ==========================
 Response 8: 
-(0085, 0000, 0128, 0043)  
+<loc0085><loc0000><loc0128><loc0043> Audio Source Selector
 ==========================
 Response 9: 
-(0085, 0000, 0128, 0043)  
+<loc0085><loc0000><loc0128><loc0043> Audio Source Selector
 ==========================
 Response 10: 
-(0085, 0000, 0128, 0043)  
+<loc0085><loc0000><loc0128><loc0043> Audio Source Selector
 ==========================
