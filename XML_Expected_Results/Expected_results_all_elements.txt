@@ -1,1 +1,12 @@
+Possible Selectors that the AI could/should recreate. Variations are possible and not listed:
+
+Home:
+
+Active:
+
+Favorite:
+
+ASS:
+
+Plus:
 
