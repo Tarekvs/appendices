@@ -1,12 +1,20 @@
 Possible Selectors that the AI could/should recreate. Variations are possible and not listed:
 
-Home:
+Home: (resourceId="com.bmwgroup.idnext.overlay:id/homeIcon")
 
-Active:
+ASS:text = (resourceId='com.bmwgroup.apinext.mediaapp:id/bmw_source_selector').child(clickable=true)
 
-Favorite:
+Favorite: (resourceId="com.bmwgroup.apinext.mediaapp:id/custom_particle_action")
 
-ASS:
+Active: 
+active_mode_container = d(resourceId="com.bmwgroup.idnext.uicomponents.themeswitcher:id/theme_container").child(
+    resourceId="com.bmwgroup.idnext.uicomponents.themeswitcher:id/activated_line")
+active_mode_name = active_mode_container.child(resourceId="com.bmwgroup.idnext.uicomponents.themeswitcher:id/theme_name").get_text()
 
-Plus:
+
+
+Plus: xpath("//*[@resource-id='com.bmwgroup.idnext.overlay:id/minusLayout']")
+Note: This would result in all occurrences of the plus button to become iterable using for example:
+for elem in d.xpath("//*[@resource-id='com.bmwgroup.idnext.overlay:id/minusLayout']").all():
+
 
